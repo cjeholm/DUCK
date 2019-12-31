@@ -1,7 +1,7 @@
 # DUCK
 # Aircraft proximity alerts for DUMP1090
 # https://github.com/cjeholm/DUCK
-
+# Version 1.0
 
 import json
 import time
@@ -13,23 +13,21 @@ if os.name == 'nt':
 
 
 # User settings
-alert_alt = 6000
-play_sound = False
+alert_alt = 1000
+play_sound = True
 metric = True
 refresh_timer = 2
 timeout = 10
-# json_source = "http://localhost:8080/data.json"
-json_source = "http://localhost/sdrjson/data.json"
+json_source = "http://localhost:8080/data.json"
 my_lat = 59.758202
 my_long = 18.700124
-alert_distance = 200
+alert_distance = 20
 log = True
 
 
 known_aircraft = {
     '4aaa72': 'heli ambul',
-    '4aaa4e': 'heli sjörä',
-    '86831e': 'test JAL45'
+    '4aaa4e': 'heli sjörä'
 }
 
 ignored_aircraft = {
