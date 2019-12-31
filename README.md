@@ -13,25 +13,16 @@ DUCK should run on Windows, MacOS and Linux with python3.
 ### Settings
 In the beginning of the file duck.py you can find a section commented "User settings". Update these parameters for your location and alert thresholds.
 
-alert_alt - the altitude under which to alert
-
-play_sound - set to False for silent mode
-
-metric - set to True to convert altitude and distance to meters and kilometers
-
-refresh_timer - seconds the script will wait before refresh
-
-timeout - seconds the script will alert after no more data is received when alerting
-
-json_source - url to JSON file from DUMP1090. data.json or aircraft.json, depending on version
-
-my_lat - your latitude position
-
-my_long - your longitude position
-
-alert_distance - radius of the alert in miles or kilometers
-
-log - set True for writing alerting aircraft to a txt file. A new file is created for each session.
+* alert_alt - the altitude under which to alert. The unit depends on how you set the 'metric' parameter.
+* play_sound - set to False for silent mode
+* metric - set to True to convert altitude and distance to meters and kilometers
+* refresh_timer - seconds the script will wait before refresh
+* timeout - seconds the script will alert after no more data is received when alerting
+* json_source - url to JSON file from DUMP1090. data.json or aircraft.json, depending on version
+* my_lat - your latitude position
+* my_long - your longitude position
+* alert_distance - radius of the alert in miles or kilometers
+* log - set True for writing alerting aircraft to a txt file. A new file is created for each session.
 
 ### KNOWN LIMITATIONS
 
