@@ -1,0 +1,6 @@
+[
+{"hex":"406f3b", "squawk":"0000", "flight":"", "lat":0.000000, "lon":0.000000, "validposition":0, "altitude":10775,  "vert_rate":0,"track":0, "validtrack":0,"speed":0, "messages":3, "seen":0},
+{"hex":"86831e", "squawk":"3520", "flight":"JAL45   ", "lat":59.403625, "lon":18.689667, "validposition":1, "altitude":38000,  "vert_rate":64,"track":231, "validtrack":1,"speed":458, "messages":1025, "seen":0},
+{"hex":"732541", "squawk":"4555", "flight":"IRA712  ", "lat":59.388382, "lon":18.455566, "validposition":1, "altitude":16425,  "vert_rate":2560,"track":182, "validtrack":1,"speed":358, "messages":437, "seen":54},
+{"hex":"502c97", "squawk":"0445", "flight":"BTI1F6  ", "lat":59.253616, "lon":19.076202, "validposition":1, "altitude":24675,  "vert_rate":768,"track":139, "validtrack":1,"speed":305, "messages":1767, "seen":41}
+]
