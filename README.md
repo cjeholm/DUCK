@@ -1,5 +1,5 @@
-# DUCK
-Aircraft proximity alerts for DUMP1090
+## DUCK
+### Aircraft proximity alerts for DUMP1090
 
 This alert script reads the JSON data created by DUMP1090 and alerts the user for low altitude aircraft in the area. Some aircraft do not transmit location in their ADS-B data and sometimes this data is missing due to poor signal quality. When the alert script detects an aircraft with a low altitude and its location is unknown, the warning will be triggered as a safety precaution. DUCK and DUMP1090 can run on different computers but is intended to function without any network or internet connection. All you need is the software, a RTL-SDR and a vertically polarized antenna tuned to 1090 MHz.
 
@@ -7,8 +7,10 @@ The purpose of DUCK is to be an early warning system for drone pilots. Where I l
 
 Be advised that not all aircraft carries an ADS-B transmitter and will therefore not be detected. Do not blindly trust this script, it's just one tool in the toolbox.
 
+DUCK should run on Windows, MacOS and Linux.
 
-KNOWN LIMITATIONS
+
+### KNOWN LIMITATIONS
 
 Reported altitude from the aircraft is uncorrected for local changes in pressure and temperature. This may cause an incorrect or even negative altitude being reported, a limitation of the ADS-B system itself. Negative altitudes will trigger the warning.
 
