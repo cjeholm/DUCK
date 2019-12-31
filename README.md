@@ -16,4 +16,4 @@ Airport ground vehicles transmitting ADS-B data may trigger the altitude warning
 
 Aircraft reporting a non-numerical altitude may cause the script to crash. Not yet tested.
 
-Warning sounds play well on Windows but is not yet fully implemented on OSX and Linux.
+Warning sounds play well on Windows but is not yet fully implemented on MacOS and Linux, where they now just play the default terminal beep.
